@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PictVers</string>
+
+    <string name="about">This app about verse, poems and their authors. Resourses: https://god.poem.org </string>
+
+    <string name="plSounds">Play</string>
+    <string name="chText">Text</string>
+    <string name="chMode">Mode</string>
+    <string name="share">Share</string>
+
+    <string name="com1">Authors</string>
+    <string name="com2">Verse</string>
+    <string name="com5">BackMusic</string>
+    <string name="com6">Settings</string>
+    <string name="com7">About</string>
+    <string name="nav_open">Open navigation drawer</string>
+    <string name="nav_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

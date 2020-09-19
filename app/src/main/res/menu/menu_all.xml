@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:orderInCategory="2"
+        android:title="Cast"
+        app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider"
+        app:showAsAction="always"
+        tools:icon="@drawable/mr_button_light" />
+    <item
+        android:id="@+id/action_play"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="1"
+        android:title="@string/plSounds"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_text"
+        android:icon="@drawable/text_format_24px"
+        android:orderInCategory="2"
+        android:title="@string/chText"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_mode"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="3"
+        android:title="@string/chMode"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_media_play"
+        android:orderInCategory="4"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+
+
+
+
+
+</menu>
